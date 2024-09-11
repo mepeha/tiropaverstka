@@ -1,0 +1,399 @@
+body {
+  font-family: Open Sans, sans-serif ;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container  {
+  max-width: 1470px;
+  margin: 0 auto;
+  background: rgba(37, 37, 37, 0.02);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p, span, a {
+  font-family: Open Sans, sans-serif ;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.color-text {
+  color: #243468;
+}
+.black-text {
+  color: white;
+}
+.title {
+  color: #243468;
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 44px */
+}
+
+
+.top-head {
+  background: #008F39;
+
+  &__area {
+    padding: 7px 0 11px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__top-menu {
+    margin-left: 15px;
+  }
+
+  &__social-media {
+    margin-left: 82px;
+  }
+
+  &__search {
+    margin-left: auto;
+  }
+
+  &__user-panel {
+    margin-left: 37px;
+    margin-right: 15px;
+  }
+}
+
+.container {
+}
+
+.top-menu {
+  display: flex;
+  gap: 40px;
+
+  &__item {
+    color: white;
+
+  }
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  &__item {
+    display: flex;
+    align-items: center;
+    a {
+      display: block;
+    }
+  }
+}
+
+.search-panel {
+  position: relative;
+  input {
+    padding-left: 22px;
+    border: 0;
+    width: 291.477px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FCFCFC;
+  }
+  img {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    cursor: pointer;
+  }
+}
+
+.user-panel {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  &__user {
+  }
+
+  &__card {
+  }
+}
+
+
+.middle-head {
+
+}
+
+.middle-head__area {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 7px 17px 15px;
+}
+.middle-head__logo {
+}
+
+
+.middle-head__info {
+  max-width: 250px;
+  p, span {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+}
+
+.middle-head__button {
+
+}
+
+
+.header-logo {
+
+}
+
+.header-logo__img {
+  width: 326.25px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.header-logo__text {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.button {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 291.477px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, rgba(103, 103, 103, 0.20) 100%), linear-gradient(268deg, #008F39 -17.03%, #30C16A 106.81%);
+}
+.bold-button {
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  width: 291.477px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, rgba(103, 103, 103, 0.20) 100%), linear-gradient(268deg, #008F39 -17.03%, #30C16A 106.81%);
+}
+.button-arrow {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-arrow::after {
+  content: '\2192';
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.bottom-head {
+  border-top: 1px solid #D7D7D7;
+}
+
+
+
+.bottom-menu {
+
+  display: flex;
+  gap: 71px;
+  padding: 18px 15px;
+}
+
+.bottom-menu__item {
+  a {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.main-slider {
+
+
+  &__slide {
+  padding: 96px 0;
+    overflow: hidden;
+
+  }
+  &__area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 59px;
+
+  }
+
+  &__info {
+  }
+
+  &__title {
+    margin-top: 27px;
+
+  }
+
+  &__subtitle {
+    margin-top: 45px;
+  }
+
+  &__button {
+    margin-top: 70px;
+  }
+
+  &__img {
+    position: relative;
+    img {
+      position: absolute;
+      border-radius: 214px 0 0 214px;
+    }
+
+  }
+}
+
+.uppercase-color-title {
+  color: #243468;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.our-options {
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__area {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 21px;
+    grid-template-rows: 310px 310px 310px;
+  }
+
+  &__item {
+    grid-column: span 2;
+    border-radius: 10px;
+    background: #EDF2EE;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 27px;
+    padding: 30px;
+  }
+  &__item:nth-child(3) {
+    padding: 30px 50px;
+    color: white;
+    background: #008F39;
+    grid-row: span 2;
+    display: grid;
+  }
+  &__item-title {
+
+    font-size: 25px;
+
+    font-weight: 600;
+  }
+  &__item-service {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: baseline;
+  }
+  &__item-service-title {
+
+    font-size: 18px;
+
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 252px;
+  }
+  &__item-service-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  &__item-service-button {
+    margin-top: 8px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 2px 18px;
+  }
+  &__item-button {
+    border-radius: 10px;
+    background: #F9F9F9;
+    color: black;
+  }
+
+  &__item:nth-child(4) {
+
+    grid-column: span 4;
+  }
+  &__item:nth-child(5) {
+
+    grid-column: span 3;
+  }
+  &__item:nth-child(6) {
+
+    grid-column: span 3;
+  }
+
+
+  &__item-img {
+    position: absolute;
+    top: 20px;
+    right: 42px;
+    img {
+
+    }
+  }
+
+  &__item-title {
+    max-width: 450px;
+  }
+}
+
+
+
+// BLOCK
+
